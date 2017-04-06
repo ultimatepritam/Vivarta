@@ -11,6 +11,7 @@ html {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+
 }
 
 @media only screen and (min-width: 340px) {
@@ -21,6 +22,8 @@ html {
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
+              transform: translateZ(0);
+              -webkit-transform: translateZ(0);
     }
 }
 
@@ -32,6 +35,8 @@ html {
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
+              transform: translateZ(0);
+              -webkit-transform: translateZ(0);
     }
 }
 
@@ -39,6 +44,8 @@ html {
   position: absolute;
   top: 50px;
   left: 50px;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   -webkit-transition: -webkit-transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
   transition: -webkit-transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
   transition: transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
@@ -54,6 +61,8 @@ html {
     .menu, .button {
       top: 25px;
       left: 25px;
+      transform: translateZ(0);
+      -webkit-transform: translateZ(0);
     }
 }
 
@@ -67,6 +76,8 @@ html {
   background-repeat: no-repeat;
   background-size: 33%;
   font: 25px/100px Alegreya Sans, sans-serif;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   -webkit-transition: -webkit-transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
   transition: -webkit-transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
   transition: transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
@@ -88,12 +99,16 @@ html {
   -webkit-transition: border-color 0.75s, color 0.75s;
   transition: border-color 0.75s, color 0.75s;
   will-change: color, border-color, background;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 @media only screen and (max-width: 768px) {
     .main {
       font-size: small;
       line-height: 50px;
+      transform: translateZ(0);
+      -webkit-transform: translateZ(0);
     }
 }
 
